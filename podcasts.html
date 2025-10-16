@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.24">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Pódcasts y Espacios de trabajo con la IA – Materiales Docentes con IA</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9cbc148dd616713867d17a6e6a12d7db.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./podcasts.html">1 - Pódcasts y Espacios IA</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="./index.html" class="sidebar-logo-link">
+      </a>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Buscar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./materiales.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introducción al curso</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./podcasts.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">1 - Pódcasts y Espacios IA</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ejercicios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2 - Ejercicios en clase</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./asistentes.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3 - Feedback</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./clase.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4 - Clase completa</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#creación-de-material-docente-con-ia" id="toc-creación-de-material-docente-con-ia" class="nav-link active" data-scroll-target="#creación-de-material-docente-con-ia">Creación de material docente con IA</a></li>
+  <li><a href="#pódcasts-con-ia" id="toc-pódcasts-con-ia" class="nav-link" data-scroll-target="#pódcasts-con-ia">Pódcasts con IA</a>
+  <ul>
+  <li><a href="#definición" id="toc-definición" class="nav-link" data-scroll-target="#definición">Definición</a></li>
+  <li><a href="#formato" id="toc-formato" class="nav-link" data-scroll-target="#formato">Formato</a></li>
+  <li><a href="#cómo-crear-un-pódcast" id="toc-cómo-crear-un-pódcast" class="nav-link" data-scroll-target="#cómo-crear-un-pódcast">¿Cómo crear un pódcast?</a></li>
+  <li><a href="#pódcasts-rápidos-con-notebooklm" id="toc-pódcasts-rápidos-con-notebooklm" class="nav-link" data-scroll-target="#pódcasts-rápidos-con-notebooklm">Pódcasts rápidos con NotebookLM</a></li>
+  <li><a href="#pódcasts-más-elaborados" id="toc-pódcasts-más-elaborados" class="nav-link" data-scroll-target="#pódcasts-más-elaborados">Pódcasts más elaborados</a>
+  <ul class="collapse">
+  <li><a href="#empecemos-con-el-guión" id="toc-empecemos-con-el-guión" class="nav-link" data-scroll-target="#empecemos-con-el-guión"><strong>1. Empecemos con el guión</strong></a></li>
+  <li><a href="#creación-del-audio" id="toc-creación-del-audio" class="nav-link" data-scroll-target="#creación-del-audio"><strong>2. Creación del audio</strong></a></li>
+  <li><a href="#juntamos-todo" id="toc-juntamos-todo" class="nav-link" data-scroll-target="#juntamos-todo"><strong>3. Juntamos todo</strong></a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#espacios-de-trabajo-con-ia" id="toc-espacios-de-trabajo-con-ia" class="nav-link" data-scroll-target="#espacios-de-trabajo-con-ia">Espacios de trabajo con IA</a>
+  <ul>
+  <li><a href="#enriqueciendo-las-fuentes" id="toc-enriqueciendo-las-fuentes" class="nav-link" data-scroll-target="#enriqueciendo-las-fuentes">Enriqueciendo las fuentes</a></li>
+  <li><a href="#creación-de-materiales" id="toc-creación-de-materiales" class="nav-link" data-scroll-target="#creación-de-materiales">Creación de materiales</a></li>
+  <li><a href="#distribución" id="toc-distribución" class="nav-link" data-scroll-target="#distribución">Distribución</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><b>Pódcasts </b><br>y Espacios de trabajo con la IA</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<style>
+ .side{
+    display: inline-block; 
+    float: left;
+  }
+
+  .zoom-container {
+    width: 100px;
+    overflow: hidden;
+    cursor: zoom-in;
+    transition: transform 0.3s ease;
+  }
+
+  .zoomed {
+    transform: scale(2); /* puedes cambiar el nivel de zoom */
+    cursor: zoom-out;
+    }
+
+  img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+</style>
+<script>
+  const container = document.getElementById("zoomContainer");
+
+  container.addEventListener("click", () => {
+      container.classList.toggle("zoomed");
+    });
+</script>
+<blockquote class="blockquote">
+<p>La inteligencia artificial puede ser un tutor eficiente porque adapta el ritmo, el nivel y el enfoque de la enseñanza a cada estudiante, ofreciendo acompañamiento constante y aprendizaje verdaderamente personalizado.<br> <strong>GPT-5</strong></p>
+<p>La inteligencia artificial se convierte en un tutor eficiente al personalizar el aprendizaje a la medida de cada estudiante. Con la capacidad de adaptarse al ritmo individual, ofrecer retroalimentación instantánea y estar disponible 24/7, la IA brinda un apoyo constante y enfocado que potencia la comprensión y el dominio de cualquier materia.<br> <strong>Gemini 2.5</strong></p>
+<p>La IA es una herramienta valiosa como tutor complementario por su disponibilidad y adaptabilidad, pero carece de la empatía y comprensión emocional que caracterizan al aprendizaje significativo. Lo ideal es un enfoque híbrido que combine la retroalimentación inmediata de la IA con la orientación humana.<br> <strong>Claude Sonnet 4.5</strong></p>
+</blockquote>
+<section id="creación-de-material-docente-con-ia" class="level2">
+<h2 class="anchored" data-anchor-id="creación-de-material-docente-con-ia">Creación de material docente con IA</h2>
+<p>La inteligencia artificial (IA) ya es una tecnología de más rápida adopción en la historia. Desde noviembre de 2022, cuando OpenAI lanzó chatGPT, hemos sido testigos de un aumento sin precedentes en el uso tanto en términos de cantidad de usuarios como de distintas aplicaciones. En la educación, su llegada ha provocado una primera reacción de sospecha y desconfianza. Se trata de una respuesta comprensible y legítima frente al uso nada ético por parte de estudiantes. En esa fase inicial, la IA se presenta a los profesores bajo la forma de un ensayo superficial, pero bien escrito; como una tarea que debería haber sido llevada a cabo por los estudiantes. Escribir es pensar. Y, cuando los estudiantes delegan este esfuerzo cognitivo fundamental a un programa, todo el proyecto educativo se ve amenazado.</p>
+<p>Una primera respuesta ha sido intentar encontrar medios de detección y formas de sancionar el uso poco ético de la tecnología. No obstante, en la medida que la misma tecnología avanza, la tarea de detectar un mal uso de la misma se convierte en una tarea cada vez más difícil. Herramientas de humanización, así como la posibilidad de falsos positivos (atribuir frases como producidas por IA cuando no lo son), convierten el proceso de identificación y sanción más difíciles. Por ejemplo, copiemos y peguemos esos párrafos iniciales en un detector de IA. Se trata de un texto escrito por mí. No obstante, veamos qué dicen las máquinas.</p>
+<p>He copiado los dos párrafos anteriores a gptzero.me, el detector más popular, el resultado identifica correctamente el texto como producido por humanos. No obstante, en Zero GPT, la opción que me aparece en primer lugar en la lista de Google, me dice 19,5% de contenido generado por IA. La disponibilidad de herramientas de humanización, así como el mejor entrenamiento de los estudiantes en <em>prompt engineering</em> han convertido la perspectiva punitivista en un factor que puede generar injusticias y, sobre todo, inefectivo. Se pueden emplear, pero siempre con cautela y un enfoque humano que priorice los aspectos pedagógicos del proceso.</p>
+<p>La pregunta que queda, ¿cómo adaptarse a esa nueva tecnología para evitar malos usos y al mismo tiempo potenciar el aprendizaje de los estudiantes? Lo que sugiero aquí es un cambio de enfoque. El primero es que los profesores empecemos a utilizarla. Creo que la IA nos puede ayudar mucho con algunos retos importantes que compartimos. Uno de ellos es la comprensión de los contenidos y la adquisición de competencias fundamentales. Los pódcasts, por ejemplo, pueden facilitar la comprensión de textos teóricos difíciles de entender. No sirven para reemplazar la lectura, puesto que suelen suministrar información más superficial. No obstante, si bien diseñados, permiten aclarar conceptos clavos al proveer ejemplos, explicitar mecanismos o conexiones lógicas entre ideas o reforzar argumentos centrales.</p>
+<p>La IA también puede ayudar en la lectura aclarando preguntas, dudas, creando guías de lectura, suministrando contexto. Podemos suministrar literatura adicional, videos, referencias de apoyo para que los modelos sirvan de tutores y ayuden a los estudiantes a interpretar los textos de forma contextualizada. Los espacios de trabajo enriquecidos por la IA utilizan tecnologías como la Retrieval-Augmented Generation (RAG) para enfocar la generación de texto en los contenidos elegidos por el profesor y evitar alucinaciones. De ese modo, pueden ser más precisos a la hora de responder a las preguntas de los estudiantes.</p>
+</section>
+<section id="pódcasts-con-ia" class="level2">
+<h2 class="anchored" data-anchor-id="pódcasts-con-ia">Pódcasts con IA</h2>
+<section id="definición" class="level3">
+<h3 class="anchored" data-anchor-id="definición">Definición</h3>
+<p>Los pódcasts como sabemos son píldoras auditivas que pueden ser escuchadas en cualquier momento y en cualquier lugar.</p>
+</section>
+<section id="formato" class="level3">
+<h3 class="anchored" data-anchor-id="formato">Formato</h3>
+<p>El principal formato de un pódcast suele ser una conversación entre dos o más personas. No obstante, podemos emplear un poco la imaginación y crear variaciones en el formato. Cuentos o narrativas breves, entrevistas, monólogos explicativos, preguntas y respuestas, mesas redondas.</p>
+</section>
+<section id="cómo-crear-un-pódcast" class="level3">
+<h3 class="anchored" data-anchor-id="cómo-crear-un-pódcast">¿Cómo crear un pódcast?</h3>
+<p>Existen varias herramientas que permiten crear pódcasts de forma sencilla. <a href="https://notegpt.io/" target="_blank">NoteGPT</a> es una de las más sencillas. Subes un PDF, documento Word, o un video de Youtube y la aplicación genera un guión con dos entrevistadores hablando sobre el tema del documento. La aplicación incluso permite que edites el texto antes de generar las voces.</p>
+<p>En este curso emplearemos dos herramientas para la creación de pódcasts. La primera es <a href="https://notebooklm.google.com/" target="_blank">NotebookLM</a> de Google. Se trata de una plataforma excelente para la educación. Sus funcionalidades permiten una enorme flexibilidad a la hora de organizar el material de estudio y la creación de contenido a partir de fuentes básicas. Exploraremos la plataforma durante todo el curso, pero en esta sesión nos concentraremos en su capacidad de generar pódcasts de forma rápida y fácil.</p>
+<p>La segunda herramienta es <a href="https://aistudio.google.com" target="_blank">Google AI Studio</a>. Funciona como una mesa de trabajo para desarrolladores de aplicaciones basadas en la IA. No obstante, también puede ser empleada por usuarios sin conocimientos técnicos. Contiene diversos modelos para la generación de imágenes, audio, video y texto. En esta sesión nos concentraremos en la generación de guiones y su posterior conversión en audio.</p>
+</section>
+<section id="pódcasts-rápidos-con-notebooklm" class="level3">
+<h3 class="anchored" data-anchor-id="pódcasts-rápidos-con-notebooklm">Pódcasts rápidos con NotebookLM</h3>
+<p>Pasemos directamente a la práctica. Entra en <a href="https://notebooklm.google.com/" target="_blank">NotebookLM</a> con tu cuenta de Google. Crea un nuevo cuaderno y súbele los siguiente documentos:</p>
+<ol type="1">
+<li><p><a href="https://ocw.uca.es/pluginfile.php/1491/mod_resource/content/1/El_principe_Maquiavelo.pdf" target="_blank">El Príncipe</a> de Maquiavelo, baja el libro y sube el PDF en la plataforma.</p></li>
+<li><p><a href="https://maytemunoz.net/wp-content/uploads/2019/10/Skinner-Maquiavelo.pdf" target="_blank">Maquiavelo</a> de Quentin Skinner es una biografía excelente que no solo cuenta la vida del autor, sino que hace una revisión profunda de su pensamiento. Aqui también debes bajar el libro y subir el PDF en la plataforma.</p></li>
+<li><p>Documental <a href="https://www.youtube.com/watch?v=F6FLy4NJGLo" target="_blank">Memo from Maquiavelo</a>.</p></li>
+<li><p>Documental <a href="https://www.youtube.com/watch?v=raCiLLP-bs0" target="_blank">BBC - el 500 aniversario de Maquiavelo</a>.</p></li>
+<li><p>Para alimentar un poco el contexto. <a href="https://www.youtube.com/watch?v=tecocKSclwc" target="_blank">Crash Course on the Renaissance</a></p></li>
+<li><p>Análisis de una obra clave del Renacimiento <a href="https://www.youtube.com/watch?v=9x0tsuS4dk0" target="_blank">La Escuela de Atenas</a> de Rafael Sanzio.</p></li>
+</ol>
+<p>Una vez que estén subidos, clica en el botón “Resumen de audio”. La plataforma dirá que volvamos en algunos momentos, pues tarda unos minutos hasta generar el audio. Terminada la producción del audio, podemos escucharlo en la misma plataforma, bajar el audio y subirlo a <em>Studium</em> o emplear la aplicación de NotebookLM para nuestros móviles para escuchar el audio en casa, el gimnasio, o caminando por la calle.</p>
+<p>Ahora, generemos otra versión un poco más elaborada. Empezamos por hacer clique en el lápiz que se encuentra en el rincón superior derecho del botón “Resumen de audio”. Esta acción nos abrirá una ventana en la que podremos seleccionar el formato del pódcast, el idioma, la duración y darle instrucciones personalizadas a la IA. Seleccionemos Crítica como formato, duración “Más corta” y digamos al modelo: “Concéntrate en los conceptos de fortuna y virtù”. Luego, presionamos el botón Generar.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Importante</span>Ejercicio
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Crea un pódcast con NotebookLM empleando el material que empleas para una de tus clases.</p>
+<p>Puedes emplear el material que ya tienes en PDF o subir videos de Youtube relacionados con el tema de la clase.</p>
+<p>Recuerda de indicarle a la IA el formato, la duración y las instrucciones específicas que quieres que siga.</p>
+<p>Escucha los resultados y evalúa si el pódcast puede ser útil para tus estudiantes.</p>
+<p>Dispones de <strong>30 minutos</strong> para realizar la tarea.</p>
+</div>
+</div>
+</section>
+<section id="pódcasts-más-elaborados" class="level3">
+<h3 class="anchored" data-anchor-id="pódcasts-más-elaborados">Pódcasts más elaborados</h3>
+<p>NotebookLM nos brinda soluciones rápidas y sencillas. Resulta muy fácil crear los episodios e incluso adaptarlos a ciertos contenidos y formatos. No obstante, las posibilidades de configurar las voces, los formatos más allá de los ofrecidos por la plataforma son limitados. Para ello, emplearemos otros recursos. El primero es <a href="https://aistudio.google.com" target="_blank">Google AI Studio</a>. Ahí están reunidos todos los modelos de IA de Google que nos serán útiles.</p>
+<section id="empecemos-con-el-guión" class="level4">
+<h4 class="anchored" data-anchor-id="empecemos-con-el-guión"><strong>1. Empecemos con el guión</strong></h4>
+<p>Entremos en el AI Studio. Si todavía no te has registrado, Google pedirá que te registre (<em>Getting Started</em> o algo similar). Una vez te hayas identificado con la cuenta de la USAL u otra de Google que emplees, podrás clicar en el botón “+ New chat” (situado en el rincón superior derecho de la pantalla). Esta acción abrirá la pantalla de chat con el modelo “Gemini 2.5 Pro” seleccionado por defecto. Si hay otro modelo seleccionado, clica sobre el nombre del modelo y aparecerá un menu a la derecha con todos los modelos disponibles. Selecciona “Gemini 2.5 Pro”. Se trata del modelo más potente de Google en la actualidad.</p>
+<p>Ahora ya podemos empezar. Lo primero es determinar algunos parámetros fundamentales para crear nuestro pódcast:</p>
+<p><strong>1. El tema.</strong> Este es el paso más evidente y fácil. Por ejemplo, quiero tratar la relación sobre <strong>tecnología y poder</strong>. Es un tema que me interesa mucho y sobre el que doy un curso. Quiero hacer un podcast para ayudar a los estudiantes a entender la relación entre esos dos conceptos.</p>
+<p><strong>2. La estructura.</strong> Quiero un formato híbrido. De un lado, quiero emplear el poder narrativo de la literatura para crear una historia que facilite el entendimiento y, luego, quiero emplear el formato dialógico socrático para simular un debate entre estudiantes.</p>
+<p><strong>3. Las voces.</strong> Quiero una voz que sea capaz de contar historias de forma amena e interpretativa, como un cuentacuentos profesional. Luego, quiero dos voces que representen a dos estudiantes universitarios que debaten sobre el tema.</p>
+<p>Ahora puedo empezar. Empiezo por diseñar un prompt para la primera parte del pódcast, la narración. El prompt es el siguiente:</p>
+<p><strong>Inicio del prompt</strong></p>
+<p># Rol</p>
+<p>Actúa como un escritor de fábulas o cuentos. Tienes un estilo semejante al de Esquilo o La Fontaine. Empleas animales del bosque para contar de forma amena historias que de otro modo serían áridas y controvertidas.</p>
+<p># Tarea</p>
+<p>Crea una fábula sobre la relación entre tecnología y poder. Desarrolla una historia que ilustre de forma divertida y amena cómo la tecnología en sí misma impone formas de control y poder. La idea es dejar claro cómo la tecnología misma produce o condiciona el comportamiento y cómo ciertas formas de tecnología exigen ciertas formas de gestión, algunas más democráticas y otras más tecnocráticas. Utiliza un análogo de una red eléctrica, que puede ser tanto centralizada (y sujeta a fallos sistémicos y a una gobernanza tecnocrática) en contraposición a una red distribuída de provisión local (más resistente y con la posibilidad de una gestión comunitaria).</p>
+<p># Formato de Salida</p>
+<p>Genera un texto para voz y que sea capaz de alimentar un modelo de creación de audio.</p>
+<p><strong>Fin del prompt</strong></p>
+<p>Este <em>prompt</em> es el resultado de algunos intentos. No ha salido a la primera. He tenido que hacer algunos ajustes para que el modelo entendiera exactamente lo que quería. Además, intenta emplear más de un modelo. Algunos como Claude o ChatGPT son mejores con la creación de textos literarios, mientras que Gemini produce resultados más planos.</p>
+<p>La solución que más me gustó fue la de Claude Sonnet 4.5:</p>
+<div class="callout callout-style-default callout-tip callout-titled" style="background-color:#F0FDF4;">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span><strong>La Fábula de los Castores y la Gran Red</strong>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>En los tiempos antiguos, cuando los bosques aún desconocían la ambición, vivían los castores en paz y armonía. Cada familia construía su presa, y juntos compartían las aguas del río bajo un acuerdo simple: cada cual proveía su propia luz mediante luciérnagas capturadas en frascos de barro.</p>
+<p>Fue entonces cuando llegó Castor Ingeniero, portador de ideas brillantes y un rollo de pergamino bajo el ala. Observó las viejas costumbres y dijo:</p>
+<p>—Hermanos, ¿por qué conformarse con luciérnagas tímidas? He imaginado algo magnífico: construiremos una Gran Presa, tan colosal que hará caer el agua desde las alturas, y esa caída moverá ruedas enormes. Esas ruedas girarán, girarán sin cesar, y su giro transmutará la fuerza bruta en luz radiante. Una sola fuente iluminará todas las madrigueras del bosque. ¡Imaginen!</p>
+<p>Los castores jóvenes aplaudieron con sus colas. Los ancianos fruncieron sus hocicos, pero fueron vencidos por la promesa de comodidad.</p>
+<p>Y así comenzó la construcción. Castor Ingeniero convocó a los más fuertes para trabajar incansablemente. Erigieron una presa monumental. Tendieron cables de corteza y madera que serpenteaban entre todas las guaridas del bosque, llevando aquella luz nueva, brillante, adictiva.</p>
+<p>Durante un tiempo glorious, el bosque resplandeció. Los castores abandonaron sus viejas lámparas de luciérnaga. Se volvieron perezosos y confiados. Ni un solo animal sabía ya cómo funcionaba la Gran Máquina; solo Castor Ingeniero y sus tres asistentes guardaban ese secreto celosamente en la torre de control.</p>
+<p>Pero una noche de tormenta, un rayo cercenó una pieza crucial de la Presa.</p>
+<p>La luz se extinguió. Todas a la vez. El bosque entero quedó sumido en una oscuridad absoluta y aterradora.</p>
+<p>Los castores corrieron de un lado a otro, presas del pánico. Buscaron sus viejos frascos de luciérnagas, pero todos habían muerto. Los jóvenes ni siquiera recordaban dónde encontrar nuevas. Castor Ingeniero, desde su torre, gritaba órdenes, pero nadie sabía cómo ejecutarlas. El sistema era tan complejo, tan centralizador, que un único fallo lo tumbaba todo.</p>
+<p>Por tres noches oscuras, el bosque sufrió.</p>
+<p>Fue entonces cuando la vieja Castor Sabia, quien antaño guardaba los conocimientos antiguos, habló desde su madriguera retirada:</p>
+<p>—He visto otra forma. No será tan espectacular, pero será más resistente.</p>
+<p>Y reunió a los jóvenes. Les mostró cómo construir pequeñas presas locales en los afluentes del río. Cada familia tendría su propia rueda, su propia fuente de luz. Estas presas conectarían entre sí mediante caminos de corteza, no para dominar, sino para auxiliarse mutuamente en tiempos de necesidad. Si una fallaba, las otras permanecían iluminadas. Si una prosperaba, podía compartir su abundancia.</p>
+<p>Al principio, los castores se resistieron. No era tan cómodo, no era tan centralizado. Requería que cada comunidad comprendiera su propia máquina, que participara en su mantenimiento, que tomara decisiones juntas sobre cómo repartir la energía.</p>
+<p>Pero pasaron dos años, y algo extraordinario sucedió.</p>
+<p>El bosque no solo volvió a brillar; floreció. Cada presa local era más resistente, más audaz en su diseño. Los castores aprendieron trucos nuevos. Las comunidades se visitaban para compartir conocimientos. Y cuando llegó la siguiente tormenta, aunque algunas presas fallaron, otras permanecieron firmes. El bosque no cayó en la oscuridad total. Hubo luz donde fue necesaria.</p>
+<p>Castor Ingeniero observaba desde su torre abandonada, contemplando cómo sus secretos ya no eran secretos, sino patrimonio común. Primero sintió rabia. Luego, extrañamente, algo parecido a la paz.</p>
+<p>Porque había aprendido una verdad incómoda: la tecnología no es neutral. Una Gran Presa centralizada no trae solo luz; trae también dependencia, fragilidad y el poder de pocos sobre muchos. Requiere un sacerdocio de expertos que guarden sus misterios celosamente.</p>
+<p>Pero las pequeñas presas distribuidas, aunque sean menos glamorosas, enseñan a cada animal a ser dueño de su destino. Requieren que la comunidad participe, que comprenda, que decida. Su poder es menor, pero es más justo y más seguro.</p>
+<p>Y así, en el bosque del río, los castores aprendieron que el verdadero ingenio no está en construir máquinas cada vez más grandes, sino en construir sistemas donde el poder no emana de una única torre, sino que fluye, como el agua misma, de muchos lugares a la vez.</p>
+<hr>
+<p><em>Moraleja: No preguntemos qué poder nos da la tecnología, sino qué poder nos quita. Porque la tecnología que nos sirve es aquella que comprendemos, aquella en la que participamos, aquella que distribuye poder en lugar de concentrarlo. Los sistemas centralizados son frágiles por su propia naturaleza, no por accidente. Y los sistemas distribuidos no son primitivos; son sabios.</em></p>
+<hr>
+<p><em>Así termina la fábula de los castores. Que cada uno medite sobre las presas que construye en su propio bosque.</em></p>
+</div>
+</div>
+<p>Una vez terminada la generación del texto, podemos alterar el texto como queramos para incluir otros personajes o escenas. Lo podemos hacer directamente sobre el texto o pedir que el modelo LLM lo haga por nosotros, cambiando el texto original y dándolde mayor fluidez.</p>
+<p>Ahora, creamos un guión complementario para debatir el tema. El prompt es el siguiente:</p>
+<p><strong>Inicio del prompt</strong></p>
+<p># Rol</p>
+<p>Actúa como un escritor de guiones de pódcast. Eres experto en el desarrollo de conversaciones amenas, animadas e interesantes sobre temas relacionados a tecnología y poder.</p>
+<p># Tarea</p>
+<p>Le voy a dar una fábula sobre la relación entre tecnología y poder. Tu tarea consiste en crear un diálogo entre dos estudiantes universitarios que debaten sobre los temas centrales de la fábula tomando un café en la cafetería de la facultad. Uno de los estudiantes defiende una visión más tecnocrática y centralizada, mientras que la otra aboga por un enfoque más democrático y distribuído. El diálogo debe ser dinámico, entretenido, divertido con argumentos sólidos y ejemplos claros que ilustren sus puntos de vista. Asegúrate de que cada estudiante tenga voz y espacio para expresar sus ideas, y que el debate sea respetuoso pero apasionado. Además, que el lenguaje sea ameno y cotidiano, como si los dos estuvieran en una cafetería.</p>
+<p># Formato de Salida</p>
+<p>Genera un texto para voz y que sea capaz de alimentar un modelo de creación de audio.</p>
+<p># Texto de la fábula</p>
+<p>[COPIAR Y PEGAR EL TEXTO DE LA FÁBULA AQUÍ]</p>
+<p><strong>Fin del prompt</strong></p>
+<p>El resultado es el siguiente:</p>
+<div class="callout callout-style-default callout-tip callout-titled" style="background-color:#F0FDF4;">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Diálogo
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Sofía:</strong> (Con entusiasmo) ¡No, no, para nada! Es que la fábula de los castores que nos mandó el profe de “Tecnología y Sociedad” es simplemente genial. Me dejó pensando toda la mañana.</p>
+<p><strong>Alex:</strong> (Con un tono más escéptico y divertido) ¿En serio? ¿La historia de los roedores ingenieros? A mí me pareció un poco… no sé, idealista. Entiendo el punto, pero seamos honestos, sin el Castor Ingeniero, seguirían todos a oscuras con sus luciérnagas en frascos.</p>
+<p><strong>Sofía:</strong> ¡Pero ese es el punto, Alex! No se trata de estar en contra del progreso, sino de CÓMO se construye ese progreso. El problema no es la Gran Presa en sí, sino lo que representa: un sistema hipercentralizado donde nadie, excepto una élite, entiende cómo funciona.</p>
+<p><strong>Alex:</strong> A ver, yo lo veo de otra forma. El Castor Ingeniero es un visionario. Es el Steve Jobs del bosque. No puedes pedirle a cada castor que sepa de ingeniería hidráulica y de generación de energía. La especialización es lo que nos ha permitido avanzar como sociedad. Necesitamos expertos que tomen las decisiones complejas. ¿Te imaginas si para actualizar el sistema operativo de tu celular tuviéramos que votar todos los usuarios? Sería un caos.</p>
+<p><strong>Sofía:</strong> (Riendo) ¡Claro que no! Pero una cosa es una actualización de software y otra muy distinta es la infraestructura crítica de la que depende toda tu comunidad. La fábula lo deja clarísimo: la centralización crea una dependencia brutal. Un solo rayo, un solo punto de fallo, y todo el sistema colapsa. El bosque entero se quedó a oscuras. ¿No te suena familiar? Piensa en los grandes apagones, o en cómo una sola empresa que controla los servidores puede dejar sin servicio a medio mundo.</p>
+<p><strong>Alex:</strong> Son riesgos calculados. La eficiencia de un sistema centralizado es innegable. La Gran Presa daba una luz potente y constante para todos. Era cómoda, era práctica. Las pequeñas presas de la Castora Sabia seguro que son menos eficientes, cada una con sus propios problemas y fluctuaciones. Es como comparar una planta de energía nuclear con miles de paneles solares caseros. La primera te da una cantidad de energía masiva y estable.</p>
+<p><strong>Sofía:</strong> ¿Estable? ¿Le llamas estable a algo que si falla provoca un desastre absoluto? ¡Lo de los paneles solares es un ejemplo perfecto! Si el panel de mi vecino se estropea, el mío sigue funcionando. Es un sistema resiliente. La moraleja de la fábula es brillante: “Los sistemas centralizados son frágiles por su propia naturaleza, no por accidente”. Lo que tú llamas eficiencia, yo lo llamo una bomba de tiempo.</p>
+<p><strong>Alex:</strong> Pero es que delegar es cómodo. Yo no quiero tener que preocuparme por cómo llega la electricidad a mi casa, o cómo funciona internet. Prefiero que haya expertos, un “sacerdocio de expertos” como dice la fábula, que se encarguen de eso para que yo pueda dedicarme a lo mío. Es la base de la sociedad moderna.</p>
+<p><strong>Sofía:</strong> ¡Pero a qué costo, Alex! El costo es el poder. La fábula lo dice: “No preguntemos qué poder nos da la tecnología, sino qué poder nos quita”. Al ceder todo el control a ese Castor Ingeniero, los demás castores perdieron su autonomía, su conocimiento y, en última instancia, su capacidad de resolver sus propios problemas. Se convirtieron en meros consumidores pasivos de luz.</p>
+<p><strong>Alex:</strong> ¿Y qué hay de malo en ser un consumidor si el producto es bueno? Mira, la tecnología no es política, es una herramienta. El Castor Ingeniero quería iluminar el bosque, no controlar a los demás castores. Su intención era buena.</p>
+<p><strong>Sofía:</strong> ¡La tecnología NUNCA es neutral! Y esa es la gran lección. La forma en que está diseñada una tecnología moldea la sociedad. Una Gran Presa centralizada crea una jerarquía, con el Ingeniero en la cima. Las pequeñas presas distribuidas crean una red de colaboración entre iguales. Fomentan que la comunidad participe, que aprenda, que comparta conocimiento. Al final, no solo recuperaron la luz, sino que se convirtieron en una comunidad más fuerte y más inteligente.</p>
+<p><strong>Alex:</strong> (Tomando un sorbo de café, pensativo) Mmm… te concedo ese punto. La idea de que el conocimiento se vuelva “patrimonio común” es interesante. Pero sigo pensando que es una visión un poco romántica. En el mundo real, la complejidad de la tecnología moderna requiere un nivel de especialización que hace imposible que todos participemos en todo. No todos podemos ser programadores, ingenieros y expertos en ciberseguridad a la vez.</p>
+<p><strong>Sofía:</strong> No se trata de que todos seamos expertos en todo, sino de que los sistemas estén diseñados para ser más transparentes, comprensibles y reparables. Se trata de tener el derecho a entender cómo funcionan las cosas que moldean nuestra vida. La segunda solución de los castores no era menos tecnológica, de hecho, era más sofisticada socialmente. Era tecnología al servicio de la comunidad, no al revés.</p>
+<p><strong>Alex:</strong> (Sonríe) O sea que tú eres del “equipo Castora Sabia” y yo soy del “equipo Castor Ingeniero”.</p>
+<p><strong>Sofía:</strong> (Riendo) ¡Totalmente! Y mi equipo tiene mejor aguante a las tormentas. Al final, la pregunta es: ¿queremos un bosque que brilla con una luz cegadora pero frágil, controlada por unos pocos? ¿O preferimos un bosque con muchas luces, quizás más modestas, pero que son nuestras, que entendemos y que nos hacen más libres?</p>
+<p><strong>Alex:</strong> Bueno, cuando lo pones así… Supongo que al menos deberíamos tener a mano unos cuantos frascos con luciérnagas, por si acaso.</p>
+<p><strong>Sofía:</strong> (Chocando su taza con la de él) ¡Exacto! Por si acaso. Ahora, ¿me pasas el azúcar? Hay cosas en las que un poco de centralización es útil.</p>
+</div>
+</div>
+<p>Creamos también un texto de transición para unir las dos partes del pódcast:</p>
+<div class="callout callout-style-default callout-tip callout-titled" style="background-color:#F0FDF4;">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Transición
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>La moraleja del bosque de los castores, con su clara advertencia sobre el poder y la fragilidad, no quedó flotando en el aire. Fue la lectura asignada para los estudiantes del curso “Tecnología y Sociedad”, diseñada para provocar reflexión y debate. La historia caló hondo, especialmente en dos de sus alumnos, Sofía y Alex, quienes, al encontrarse al día siguiente para tomar un café, descubrieron que sus interpretaciones sobre el Castor Ingeniero y la Castora Sabia no podían ser más opuestas. La conversación no tardó en encenderse.</p>
+</div>
+</div>
+</section>
+<section id="creación-del-audio" class="level4">
+<h4 class="anchored" data-anchor-id="creación-del-audio"><strong>2. Creación del audio</strong></h4>
+<p>La creación de audio es el paso siguiente. Empezamos por elegir las voces.</p>
+<p><strong>A. Selección de voces</strong></p>
+<p># <strong>FÁBULA</strong></p>
+<p>PERFIL DE VOZ REQUERIDO</p>
+<p>Personaje: Cuentacuentos profesional española, especializada en narrativa infantil y juvenil</p>
+<p>Edad aparente: 30-35 años</p>
+<p>Acento: Español peninsular estándar (Madrid/Castilla), claro y neutro</p>
+<p>Registro: Culto pero accesible, maternal pero no condescendiente</p>
+<p>Voz: Achernar</p>
+<p># <strong>COMENTARIOS</strong></p>
+<p>PERFIL DE VOZ REQUERIDO</p>
+<p>Personajes: Jóvenes españoles universitarios</p>
+<p>Edad aparente: 20-25 años</p>
+<p>Acento: Español peninsular estándar (Madrid/Castilla), claro</p>
+<p>Voces: Leda y Fenrir</p>
+<p># <strong>TRANSICIÓN</strong></p>
+<p>PERFIL DE VOZ REQUERIDO</p>
+<p>Edad aparente: 30-35 años</p>
+<p>Acento: Español peninsular estándar (Madrid/Castilla), claro y neutro</p>
+<p>Voz: Enceladur</p>
+<p><br></p>
+<p><strong>B. Generación del audio</strong></p>
+<p>En AI Studio, seleccionamos la opción <strong>Generate media</strong> y luego <strong>Gemini Speech generation</strong>.</p>
+<p>A partir de ese momento, seguimos los siguientes pasos:</p>
+<ol type="1">
+<li><p>Seleccionamos el modelo Gemini 2.5 Pro Preview TTS.</p></li>
+<li><p>Seleccionamos <em>Single-speaker audio</em>, para generar el audio con solo una voz</p></li>
+<li><p>Seleccionamos la voz Achernar.</p></li>
+<li><p>Pegamos el perfil de voz requerido en la caja de textos entitulada “Style instructions”.</p></li>
+<li><p>Pegamos el texto de la fábula en la caja de texto titulada “Input text”.</p></li>
+<li><p>Luego, clicamos en <strong>Run</strong>. El modelo tardará unos minutos en generar el audio.</p></li>
+<li><p>Una vez generado, lo escuchamos vara averiguar si todo está bien y lo descargamos.</p></li>
+</ol>
+<p>El mismo procedimiento se sigue para la transición, cambiando la voz a Enceladus y el perfil de voz al seleccionado.</p>
+<p><br></p>
+<i id="playPauseBtn" class="bi bi-play-fill" role="button" onclick="togglePlay()"></i> Escucha la fábula (5m35s) <a href="fabula.wav" download="fabula.wav" style="margin-left: 15px; text-decoration: none; color: inherit;"> <i class="bi bi-download" role="button"></i> </a> <audio id="miAudio" src="fabula.wav"></audio>
+<script>
+function togglePlay() {
+var audio = document.getElementById("miAudio");
+var btn = document.getElementById("playPauseBtn");
+if (audio.paused) {
+audio.play();
+btn.className = "bi bi-pause-fill";
+} else {
+audio.pause();
+btn.className = "bi bi-play-fill";
+}
+}
+</script>
+<p><br></p>
+<p>El mismo procedimiento se sigue para la transición, cambiando la voz a Enceladus y el perfil de voz al seleccionado.</p>
+<p><br></p>
+<i id="playPauseBtnX" class="bi bi-play-fill" role="button" onclick="togglePlay4()"></i> Escucha la transición (40s) <a href="transicion.wav" download="transicion.wav" style="margin-left: 15px; text-decoration: none; color: inherit;"> <i class="bi bi-download" role="button"></i> </a> <audio id="transicion" src="transicion.wav"></audio>
+<script>
+function togglePlay4() {
+var audio = document.getElementById("transicion");
+var btn = document.getElementById("playPauseBtnX");
+if (audio.paused) {
+audio.play();
+btn.className = "bi bi-pause-fill";
+} else {
+audio.pause();
+btn.className = "bi bi-play-fill";
+}
+}
+</script>
+<p><br></p>
+<p>Repetimos el proceso para el diálogo, pegando el texto del perfil de voz y el diálogo generado por el modelo. Seleccionamos las voces Leda (Sofía) y Fenhir (Alex) para los dos personajes y clicamos en <strong>Generate</strong>. Nuevamente, esperamos unos minutos hasta que el modelo genere el audio. Una vez generado, escuchamos los resultados y descargamos el archivo.</p>
+<ol type="1">
+<li><p>Seleccionamos el modelo Gemini 2.5 Pro Preview TTS.</p></li>
+<li><p>Seleccionamos <em>Multi-speaker audio</em>, para generar el audio con dos voces</p></li>
+<li><p>Seleccionamos la voz de Leda para Sofía (y cambiamos Speaker 1 por Sofía) y la voz de Fenrir para Alex (y cambiamos Speaker 2 por Alex).</p></li>
+<li><p>Pegamos el perfil de voz requerido en la caja de textos entitulada “Style instructions”.</p></li>
+<li><p>Pegamos el texto de la fábula en la caja de texto titulada “Input text”.</p></li>
+<li><p>Luego, clicamos en <strong>Run</strong>. El modelo tardará unos minutos en generar el audio.</p></li>
+<li><p>Una vez generado, lo escuchamos vara averiguar si todo está bien y lo descargamos.</p></li>
+</ol>
+<p><br></p>
+<i id="playPauseBtn2" class="bi bi-play-fill" role="button" onclick="togglePlay2()"></i> Escucha el diálogo (4m56s) <a href="dialogo.wav" download="dialogo.wav" style="margin-left: 15px; text-decoration: none; color: inherit;"> <i class="bi bi-download" role="button"></i> </a> <audio id="dialogo" src="dialogo.wav"></audio>
+<script>
+function togglePlay2() {
+var audio = document.getElementById("dialogo");
+var btn = document.getElementById("playPauseBtn2");
+if (audio.paused) {
+audio.play();
+btn.className = "bi bi-pause-fill";
+} else {
+audio.pause();
+btn.className = "bi bi-play-fill";
+}
+}
+</script>
+<p><br></p>
+<div class="callout callout-style-default callout-important callout-titled" style="background-color:#FEF2F2;">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Importante</span>Ahorrar tiempo
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>La generación de audio puede tardar varios minutos. Para que veáis rápidamente los resultados, sugiero que solo copiéis y peguéis un pasaje corto de cada texto.</p>
+<p>Podéis generar la versión integral de los textos luego en casa o en vuestros despachos. La idea aquí es que aprendáis a manejar estas herramientas.</p>
+</div>
+</div>
+</section>
+<section id="juntamos-todo" class="level4">
+<h4 class="anchored" data-anchor-id="juntamos-todo"><strong>3. Juntamos todo</strong></h4>
+<p>Al final, juntamos los tres audios en un solo archivo. Para ello, podemos emplear cualquier editor de audio. Yo he empleado <a href="https://clideo.com/merge-audio" target="_blank">Clideo</a>, que es gratuito y muy sencillo de usar.</p>
+<p>Sumimos los tres archivos a la página, ordenamos los audios y clicamos en <strong>Merge</strong>. Una vez generado el audio, lo descargamos y lo subimos a <em>Studium</em> para compartirlo con los estudiantes.</p>
+<p>Aquí podemos escuchar la versión final del pódcast:</p>
+<i id="playPauseBtn3" class="bi bi-play-fill" role="button" onclick="togglePlay3()"></i>Versión final (11m12s) <a href="fabula_final.wav" download="fabula_final.wav" style="margin-left: 15px; text-decoration: none; color: inherit;"> <i class="bi bi-download" role="button"></i> </a> <audio id="final" src="fabula_final.wav"></audio>
+<script>
+function togglePlay3() {
+var audio = document.getElementById("final");
+var btn = document.getElementById("playPauseBtn3");
+if (audio.paused) {
+audio.play();
+btn.className = "bi bi-pause-fill";
+} else {
+audio.pause();
+btn.className = "bi bi-play-fill";
+}
+}
+</script>
+</section>
+</section>
+</section>
+<section id="espacios-de-trabajo-con-ia" class="level2">
+<h2 class="anchored" data-anchor-id="espacios-de-trabajo-con-ia">Espacios de trabajo con IA</h2>
+<p>Designo como <strong>espacios de trabajo enriquecidos con la IA</strong> a una forma de organización de material que utiliza modelos de IA para facilitar el procesamiento, análisis y entendimiento de contenido de clases. Imagínense una sección de Studium con un modelo de IA integrado. Un espacio en el que podrías subir todo el material (lecturas, videos, cuestionarios, la ficha de la asignarura) y, a partir de ese mismo conjunto de recursos, crear nuevos contenidos: resúmenes de audio, vídeo, texto, mapas conceptuales. Además, los estudiantes podrían emplear un chat enfocado en los contenidos de esa sección en concreto. Esto es exactamente lo que haremos aquí.</p>
+<section id="enriqueciendo-las-fuentes" class="level3">
+<h3 class="anchored" data-anchor-id="enriqueciendo-las-fuentes">Enriqueciendo las fuentes</h3>
+<p>Regresemos a <a href="https://notebooklm.google.com/" target="_blank">NotebookLM</a>. Ahí tenemos el material que subimos para crear el pódcast sobre Maquiavelo. Podemos emplear ese mismo material para crear un espacio de trabajo enriquecido con IA. Imaginemos que somos profesores de teoría política moderna. Nuestra primera clase abre con El Príncipe de Maquiavelo. No obstante, deseamos contextualizar el conocimiento y añadir información sobre el Renacimiento y la Italia en ese período.</p>
+<p>De certo modo, ya tenemos el material subido. Podemos partir de ese material ya disponible en nuestro cuaderno para hacerlo aún más útil. El primer paso es enriquecer el material a partir del contenido que se encuentra subido a la plataforma. En el panel derecho de la pantalla se encuentra el <em>Studio</em>. Se trata de un conjunto de funcionalidades que permiten crear nuevos contenidos a partir de las fuentes que hemos incluido en nuestro cuaderno. Como podemos observar, el Studio está conformado por siete botones: añadir nota (abajo del todo), resumen de audio, resumen de video, mapa mental, informes, tarjetas didácticas y cuestionario. Seguramente en el futuro Google incluirá más funcionalidades, puesto que la aplicación sigue en desarrollo.</p>
+<p>Para crear nuevo contenido, resulta recomendable indicar a la aplicación cómo debe interpretar las fuentes. Cuando preparamos una clase, solemos incluir textos que discuten una variedad de temas y que permiten diferentes interpretaciones. Algunos van directo al grano, pero otros refuerzan las ideas centrales. En nuestro ejemplo, tenemos el Príncipe y la biografía intelectual de Maquiavelo, pero también tenemos referencias más amplias al Renacimiento y al arte de la época. Para evitar que el modelo genere contenidos sobre el arte florentino de la época en lugar de ensayos sobre el pensamiento político de Maquiavelo contextualizado por este rico material cultural, debemos indicarlo claramente. Lo podemos lograr de diversas maneras. Podemos subir nuestras notas personales de preparación y emplearla como fuente para la articulación de los demás contenidos. Otra opción es crear notas breves al interior del mismo cuaderno para orientar el modelo.</p>
+<p>Por ejemplo, podemos copiar el siguiente texto como una fuente:</p>
+<div class="callout callout-style-default callout-tip callout-titled" style="background-color:#F0FDF4;">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Texto semilla
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Los fundamentos del Príncipe: Renacimiento, método científico y la ruptura con la tradición medieval</strong></p>
+<p>Durante el Renacimiento se produjo una transformación cultural, filosófica y política de enorme alcance. Este texto explora cómo ese nuevo espíritu —caracterizado por la razón, la observación empírica y el humanismo— permitió la aparición de <em>El Príncipe</em> de Maquiavelo como una obra fundacional de la política moderna.</p>
+<ol type="1">
+<li>La Italia del Renacimiento</li>
+</ol>
+<p>Durante el Renacimiento, Italia se encontraba fragmentada en un conjunto de pequeñas repúblicas, frecuentemente enfrentadas entre sí. La inestabilidad política era constante. El control del poder solía cambiar de manos con frecuencia, a menudo con el apoyo de algún poder externo deseoso de aumentar su influencia en la región. Francia y España fueron actores centrales en este proceso.</p>
+<p>Tal escenario favorecía la aparición de “emprendedores” políticos, deseosos de fama y poder. Líderes militares (como César Borgia) o religiosos (como Savonarola) proyectaban su carisma y sus habilidades con fines de control político. Es precisamente en ese ambiente inestable —donde la pericia y la iniciativa de los líderes constituían un diferencial fundamental para conquistar y, sobre todo, mantener el poder— que aparece <em>El Príncipe</em>.</p>
+<ol start="2" type="1">
+<li>El Príncipe y los manuales de educación para el poder</li>
+</ol>
+<p>Aunque se trata de una obra radicalmente rompedora en su contenido, <em>El Príncipe</em> de Maquiavelo representa tanto la culminación como el ocaso de una rama de la literatura cortesana con raíces en la Edad Media. Diversos manuales de educación del príncipe y sobre el arte de gobernar habían sido publicados mucho antes del texto del autor florentino. Sin embargo, todos seguían una tradición común: aconsejar al príncipe gobernar basándose en principios morales y cristianos. El objetivo del gobernante era garantizar la prevalencia de los valores cristianos, fundamento de su legitimidad.</p>
+<p>Por ejemplo, Erasmo de Rotterdam, en su <em>Institutio Principis Christiani</em> (publicada pocos años antes de <em>El Príncipe</em>), aconsejaba al príncipe guiarse por la virtud, la mansedumbre y la justicia inspirada en el Evangelio.</p>
+<p>La revolución maquiavélica, análoga en política a la copernicana en la física, consiste en romper con esa tradición y observar el poder de forma empírica y cruda. Ética y política deben separarse, y el príncipe, en ocasiones y si es necesario, debe abandonar los principios morales cristianos para garantizar la estabilidad del poder y su continuidad. De servidor de Dios en la Tierra, el príncipe se convierte en el primer servidor del Estado, una entidad que Maquiavelo concibe como inestable, sujeta a las circunstancias y dependiente de la habilidad de los líderes más que de la voluntad divina. ¿Pero qué permite este cambio radical?</p>
+<ol start="3" type="1">
+<li>El humanismo y la ciencia</li>
+</ol>
+<p>El Renacimiento fue mucho más que un estilo artístico visible en la arquitectura, la literatura o las artes visuales. Representó una ruptura filosófica e incluso teológica frente a los dogmas centrales de la Edad Media. El <em>humanismo</em> desplazó la centralidad de Dios hacia el hombre, y de la fe hacia la razón. La famosa pintura de Miguel Ángel en el techo de la Capilla Sixtina en el Vaticano muestra a un hombre que tiende su mano hacia Dios, en una composición que algunos intérpretes ven como una alusión a la forma del cerebro humano. Aunque esta lectura es debatida, simboliza una nueva visión del ser humano: racional, creador, capaz de conocer. En el centro del mismo lugar donde se eligen los papas, esta imagen eleva al hombre a una nueva posición y sitúa la razón y el conocimiento en el centro de la cultura.</p>
+<p>Este espíritu se refleja también en el estudio anatómico de Leonardo da Vinci y en su <em>Hombre de Vitruvio</em>. La razón y la experiencia, el interés por observar la naturaleza, se convirtieron en elementos esenciales de la cultura. El viaje de Colón, por ejemplo, no habría sido posible sin ese <em>Zeitgeist</em> que combinaba curiosidad, audacia y deseo de conocimiento.</p>
+<p>Todo esto implicó una transición respecto a los paradigmas anteriores, que habían interpretado el mundo desde una visión teológica y estática. Era una época de expansión de las fronteras físicas y mentales. Cuando Maquiavelo escribe <em>El Príncipe</em>, habían pasado poco más de veinte años desde el descubrimiento de América, un acontecimiento que no solo cuestionó las concepciones tradicionales del mundo, sino que impulsó el desarrollo del conocimiento práctico derivado de la observación. Las exploraciones en América, África y Asia trajeron consigo una multiplicidad de especies animales y vegetales, así como el contacto con nuevas culturas humanas. La necesidad de integrar este “Nuevo Mundo” favoreció la expansión de las ciencias de la medición, la clasificación y el análisis. Este fue el caldo de cultivo en el que nació <em>El Príncipe</em>.</p>
+<ol start="4" type="1">
+<li>El Príncipe: manual de liderazgo en épocas inestables</li>
+</ol>
+<p>El primer capítulo de <em>El Príncipe</em>, compuesto por un solo párrafo, es quizá el mejor ejemplo de un texto que aplica un método científico. También constituye un ejercicio de tipología. En pocas líneas, el autor resume la estructura general de la obra y ofrece un catálogo de las formas de gobierno posibles en su época. Este fragmento recuerda tanto las categorías de Aristóteles en la <em>Física</em> como las taxonomías de la biología moderna. Allí Maquiavelo expone explícitamente su problema de investigación: las clases de principados y los modos de adquisición del poder.</p>
+<blockquote class="blockquote">
+<p><strong>De las distintas clases de principados y de la forma en que se adquieren</strong> <em>Todos los Estados, todas las denominaciones que han ejercido y ejercen soberanía sobre los hombres, han sido y son repúblicas o principados. Los principados son, o hereditarios, cuando una misma familia ha reinado en ello largo tiempo, o nuevos. Los nuevos, o lo son del todo, como lo fue Milán bajo Francisco Sforza, o son como miembros agregados al Estado hereditario del príncipe que los adquiere, como es el reino de Nápoles para el rey de España. Los dominios así adquiridos están acostumbrados a vivir bajo un príncipe o a ser libres; y se adquieren por las armas propias o por las ajenas, por la suerte o por la virtud.</em></p>
+</blockquote>
+<p>Como puede verse, se trata de un razonamiento estructurado como un árbol de decisión que avanza del general al particular. Primero, el autor distingue entre repúblicas (que analizará en sus <em>Discursos</em>) y principados. Luego clasifica estos últimos según su modo de adquisición: hereditarios o nuevos. A continuación, divide los nuevos entre aquellos agregados a un Estado existente y los totalmente adquiridos. Estas últimas categorías —el verdadero objeto de <em>El Príncipe</em>— son examinadas según dos variables centrales: el legado histórico (si los territorios estaban acostumbrados a la libertad o al dominio) y la forma de adquisición (por armas propias, ajenas, suerte o virtud). A partir de este esquema inicial, Maquiavelo desarrolla su análisis sobre cómo un príncipe debe actuar para mantener el poder y la estabilidad de su dominio.</p>
+<p>Cuando leo en redes sociales o en los medios expresiones como “vivimos en una época de cambios sin precedentes”, me viene una pequeña sonrisa de Mona Lisa. Maquiavelo era un profundo conocedor de la historia antigua. Traductor y lector atento de los tratados romanos, especialmente de Tito Livio, su método consiste en extraer ejemplos de la experiencia histórica para orientar la acción política presente. Su obra más importante sobre la república se titula <em>Discursos sobre la primera década de Tito Livio</em>, es decir, comentarios sobre los primeros diez libros de la obra <em>Ab urbe condita</em>. Maquiavelo recurre a los orígenes de la República romana para obtener principios de comportamiento político. Este método, que podríamos llamar “protogenealógico”, busca fundamentos o regularidades que orienten la acción humana ante la política. Su orientación es empírica y práctica: no parte de la especulación filosófica abstracta (como Platón o Aristóteles), sino de la observación de los hechos y de la experiencia histórica de los antiguos.</p>
+<ol start="5" type="1">
+<li>Instrucciones para la articulación de los materiales</li>
+</ol>
+<p>A partir de los elementos mencionados en el texto, articula las fuentes para:</p>
+<ol type="a">
+<li>Describir el pensamiento de Maquiavelo.</li>
+<li>Contextualizar su obra en el momento histórico específico en que fue publicada.</li>
+<li>Describir de forma densa los contenidos de <em>El Príncipe</em>.</li>
+<li>Ofrecer a los estudiantes puentes con otros fenómenos de la época en el ámbito geográfico, histórico, artístico y cultural.</li>
+</ol>
+<p>En suma, <em>El Príncipe</em> no es solo un tratado sobre el poder, sino también un documento de transición epistemológica: el paso del mundo teológico medieval al pensamiento político moderno.</p>
+</div>
+</div>
+<p>Con ese texto corto, somos capaces de orientar el modelo hacia una interpretación concreta de la obra de Maquiavelo que sirva de apoyo a nuestra interpretación y lo que podemos desarrollar en clase. Podemos subirlo como una fuente más y, a partir de ella, crear un informe. Para ello, clicamos en “Informe” y luego en “Haz tu propia creación”. Esto permitirá que indiquemos al modelo qué queremos que haga:</p>
+<p><strong>Indicaciones al modelo</strong></p>
+<p><em>Emplea la fuente “Maquiavelo y el sentido de oportunidad” para estructurar un debate detallado sobre las fuentes. Crea un ensayo de no menos de 6000 palabras que introduzca la Italia y la Florencia de Maquiavelo, la cultura del Renacimiento, la vida y la obra de Maquiavelo y, luego, que discuta bien los temas y argumentos centrales de El Principe. Siempre conecta los aspectos del texto con sucesos contemporáneos y el zeitgeist más amplio de ese momento histórico. Ofrece ejemplos en la historia, el arte y la cultura. Ayuda a los estudiantes a conectar la obra con su contexto. Además, identifica y señala los aspectos transcendentales de la obra, apuntando porqué sigue siendo una obra interesante y relevante a día de hoy.</em></p>
+<p><strong>Fin de las indicaciones</strong></p>
+<p>Terminado el proceso, clicamos en <strong>Generar</strong>. El modelo tardará unos minutos en generar el texto. Una vez generado, lo leemos para ver si todo está bien. Podemos copiarlo y convertirlo en fuente.</p>
+</section>
+<section id="creación-de-materiales" class="level3">
+<h3 class="anchored" data-anchor-id="creación-de-materiales">Creación de materiales</h3>
+<p>El próximo paso, una vez enriquecidas las fuentes, es crear materiales a partir del panel de Studio. Hay diversas opciones disponibles:</p>
+<ol type="1">
+<li><p><strong>Mapa mental.</strong> Este botón genera una estructura de mapa conceptual interactivo que posibilita explorar dimensiones concretas del contenido.</p></li>
+<li><p><strong>Tarjetas didácticas.</strong> Se trata de una funcionalidad muy útil para repasar conceptos clave. Si clicamos en el lápiz, podemos definir el número y el nivel de dificultad de las tarjetas.</p></li>
+<li><p><strong>Cuestionario.</strong> Funciona exactamente como las tarjetas didácticas y permite la creación de un conjunto de preguntas y respuestas para repasar los contenidos de la sesión.</p></li>
+</ol>
+<p>Además, podemos crear diversos <strong>informes</strong>, <strong>resúmenes de audio</strong> y <strong>vídeo</strong> a partir de los materiales que hayamos subido. Los examinamos aparte porque permiten mayor adptabilidad que las opciones anteriores:</p>
+<ol start="4" type="1">
+<li><strong>Informes.</strong> Al clicar sobre este botón, se abre una ventana que permite al usuario crear cuatro formatos estándar y otros sugeridos a partir de vuestro uso anterior. Las opciónes estándar son:</li>
+</ol>
+<ul>
+<li>Haz tu propia creación: lo defines tú a partir de un prompt.</li>
+<li>Resumen: crea un resumen del material.</li>
+<li>Guía de estudio: formada por preguntas y respuestas cortas.</li>
+<li>Entraga de blog: ensayo corto en lenguaje divulgativo.</li>
+</ul>
+<ol start="5" type="1">
+<li><strong>Resumen de audio</strong>. Esta opción, como ya hemos visto, genera un pódcast del contenido. Los audios suelen ser bastante buenas, significativamente mejores que los videos que veremos a seguir. Al clicar sobre el lápiz (que permite personalizar el audio) nos aparece las siguientes informaciones:</li>
+</ol>
+<ul>
+<li>Información detallada: el poócast tradicional onc dos anfitriones que debaten sobre el tema.</li>
+<li>Breve: se hace un resumen corto de los principales argumentos, como píldoras de contenido.</li>
+<li>Crítica: examina el material de forma crítica y argumentativa.</li>
+<li>Debate: lleva a cabo un debate reflexivo sobre las diversas fuentes.</li>
+</ul>
+<p>Además se puede definir la duración (si más corta o estándar) y el idioma. Si el idioma de generación es el inglés, se habilita una funcionalidad adicional que es el modo interactivo en el que puedes preguntar a los anfitriones sobre las fuentes.</p>
+<ol start="6" type="1">
+<li><strong>Resumen de vídeo</strong>. Esta opción genera un vídeo a partir del material. Se trata de una especie de presentación de diapositivas narradas a partir de las fuentes. El resultado es aún mejorable, con voces robóticas y una calidad gráfica baja de las diapositivas. No obstante, esa tecnología ha evolucionado de forma rápida, con mejorías visibles desde su lanzamiento a mediados de 2025.</li>
+</ol>
+</section>
+<section id="distribución" class="level3">
+<h3 class="anchored" data-anchor-id="distribución">Distribución</h3>
+<p>Una vez terminado el proceso de creación de un espacio de trabajo enriquecido con IA, podemos compartirlo con los estudiantes. Para ello, clicamos en el botón de compartir (Share) y luego en “Copiar enlace”. Ese enlace lo podemos pegar en Studium o en cualquier otra plataforma de distribución de contenidos. Solo hay una limitación. En el caso de cuentas de la USAL, tendremos que dar acceso a cada estudiante uno por uno. Si no lo hacemos, ellos no podrán acceder al cuaderno cuando cliquen en el enlace.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Importante</span>Ejercicio
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Utiliza en NotebookLM que has creado para el ejercicio anterior del pódcast.</p>
+<p>Enriquece las fuentes con un texto semilla que oriente al modelo hacia la interpretación que deseas.</p>
+<p>Crea materiales adicionales: mapa mental, tarjetas, cuestionario, informes, resúmenes de audio y vídeo.</p>
+<p>Escucha los resultados y ajusta los contenidos de acuerdo con lo que le parezca más adecuado.</p>
+<p>Dispones de <strong>30 minutos</strong> para realizar la tarea.</p>
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Copyright 2025, Rodrigo Rodrigues-Silveira</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://oir.org.es/pela/"><img src="logo_pela.png" class="img-fluid" alt="Posit" width="500"></a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
