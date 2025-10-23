@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.24">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Ejercicios y prácticas en clase – Materiales Docentes con IA</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9cbc148dd616713867d17a6e6a12d7db.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ejercicios.html">2 - Ejercicios en clase</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="./index.html" class="sidebar-logo-link">
+      </a>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Buscar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./materiales.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introducción al curso</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./podcasts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1 - Pódcasts y Espacios IA</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ejercicios.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">2 - Ejercicios en clase</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./asistentes.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3 - Feedback</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./clase.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4 - Clase completa</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#desarrollando-ejercicios" id="toc-desarrollando-ejercicios" class="nav-link active" data-scroll-target="#desarrollando-ejercicios">Desarrollando ejercicios</a></li>
+  <li><a href="#la-ia-como-soporte" id="toc-la-ia-como-soporte" class="nav-link" data-scroll-target="#la-ia-como-soporte">La IA como soporte</a></li>
+  <li><a href="#diseño-de-un-ejercicio-con-ia" id="toc-diseño-de-un-ejercicio-con-ia" class="nav-link" data-scroll-target="#diseño-de-un-ejercicio-con-ia">Diseño de un ejercicio con IA</a>
+  <ul>
+  <li><a href="#paso-1-definir-objetivos-de-aprendizaje" id="toc-paso-1-definir-objetivos-de-aprendizaje" class="nav-link" data-scroll-target="#paso-1-definir-objetivos-de-aprendizaje">Paso 1: Definir objetivos de aprendizaje</a></li>
+  <li><a href="#paso-2-interactuar-con-la-ia" id="toc-paso-2-interactuar-con-la-ia" class="nav-link" data-scroll-target="#paso-2-interactuar-con-la-ia">Paso 2: Interactuar con la IA</a></li>
+  <li><a href="#paso-3-refinar-y-adaptar" id="toc-paso-3-refinar-y-adaptar" class="nav-link" data-scroll-target="#paso-3-refinar-y-adaptar">Paso 3: Refinar y adaptar</a></li>
+  </ul></li>
+  <li><a href="#ia-como-revisora-de-calidad" id="toc-ia-como-revisora-de-calidad" class="nav-link" data-scroll-target="#ia-como-revisora-de-calidad">IA como revisora de calidad</a></li>
+  <li><a href="#generar-soluciones-de-referencia" id="toc-generar-soluciones-de-referencia" class="nav-link" data-scroll-target="#generar-soluciones-de-referencia">Generar soluciones de referencia</a></li>
+  <li><a href="#corregir-los-ejercicios" id="toc-corregir-los-ejercicios" class="nav-link" data-scroll-target="#corregir-los-ejercicios">Corregir los ejercicios</a></li>
+  <li><a href="#vibe-coding" id="toc-vibe-coding" class="nav-link" data-scroll-target="#vibe-coding">Vibe Coding</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><b>Ejercicios </b><br>y prácticas en clase</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<style>
+ .side{
+    display: inline-block; 
+    float: left;
+  }
+
+  .zoom-container {
+    width: 100px;
+    overflow: hidden;
+    cursor: zoom-in;
+    transition: transform 0.3s ease;
+  }
+
+  .zoomed {
+    transform: scale(2); /* puedes cambiar el nivel de zoom */
+    cursor: zoom-out;
+    }
+
+  img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+</style>
+<script>
+  const container = document.getElementById("zoomContainer");
+
+  container.addEventListener("click", () => {
+      container.classList.toggle("zoomed");
+    });
+</script>
+<section id="desarrollando-ejercicios" class="level2">
+<h2 class="anchored" data-anchor-id="desarrollando-ejercicios">Desarrollando ejercicios</h2>
+<p>En esta sesión nos centraremos en la creación de ejercicios y prácticas en clase que aprovechen las capacidades de la IA generativa para mejorar la comprensión y el aprendizaje de los estudiantes. No se trata de hacer con que los estudiantes usen la IA (pueden hacerlo también). Nuestro propósito aquí consiste en sacar provecho de la herramienta para desarrollar prácticas interesantes y, sobre todo, efectivas para la enseñanza de contenidos y competencias.</p>
+</section>
+<section id="la-ia-como-soporte" class="level2">
+<h2 class="anchored" data-anchor-id="la-ia-como-soporte">La IA como soporte</h2>
+<p>Ya habéis oído mucho sobre la IA como aumento y no como reemplazo. Pues bien, es un discurso bonito, pero que hay que ponerlo en práctica. ¿Cómo podemos convertir a la IA en un soporte para la creación de ejercicios y prácticas en clase? La primera forma, y la más fácil, es pedir que la IA nos cree una práctica directamente. No obstante, los resultados suelen dejar mucho que desear sin una revisión extensiva del material generado. Otro modo consiste en emplear la IA como un consultor experto. Tenemos una idea y la empleamos como instrumento para desarrollar nuestra idea inicial en un producto más acabado. También podemos emplear la IA como revisora. Empleamos los modelos para evaluar la calidad de las prácticas generadas por nosotros y obtener sugerencias de mejora. Además, esa tecnología es capaz de generar soluciones a las prácticas que sirvan de baremo para correcciones o evaluación. Finalmente, nos puede ayudar en la creación de rubricas e instrucciones (<em>prompts</em>) de evaluación.</p>
+</section>
+<section id="diseño-de-un-ejercicio-con-ia" class="level2">
+<h2 class="anchored" data-anchor-id="diseño-de-un-ejercicio-con-ia">Diseño de un ejercicio con IA</h2>
+<section id="paso-1-definir-objetivos-de-aprendizaje" class="level3">
+<h3 class="anchored" data-anchor-id="paso-1-definir-objetivos-de-aprendizaje">Paso 1: Definir objetivos de aprendizaje</h3>
+<p>Al diseñar un ejercicio, con o sin IA, lo primero es determinar qué exactamente queremos que aprendan los estudiantes. ¿Se trata de un concepto, una idea? ¿Otra cosa: una competencia o habilidad? Por ejemplo, quiero que entiendan el concepto de democracia participativa y, sobre todo, que sean capaces de aplicar el concepto de forma práctica al analizar escenarios o formas de organización social o comunitaria. Mi objetivo es que no solo entiendan la idea de forma abstracta sino que puedan emplearla como herramientas para analizar situaciones empíricas reales.</p>
+<p>Este primer paso es crucial, pues ahora tendremos material para dialogar con la IA y pedirle que nos ayude a diseñar ejercicios que cumplan con esos objetivos.</p>
+</section>
+<section id="paso-2-interactuar-con-la-ia" class="level3">
+<h3 class="anchored" data-anchor-id="paso-2-interactuar-con-la-ia">Paso 2: Interactuar con la IA</h3>
+<p>Como ya sé qué quiero, puedo instruir a la IA para que me ayude a generar ejercicios o evaluaciones que pueda aplicar en casa o clase. Como en cualquier ejercicio con la IA, ayuda saber un poco de ingeniería de <em>prompts</em>. Empecemos con algo básico:</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>IA como auxiliar
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p># Rol</p>
+<p>Actúa como un profesor de ciencia política experto en el desarrollo de materiales docentes interesantes y atractivos para los estudiantes.</p>
+<p># Contexto</p>
+<p>Sus estudiantes son de primer año de grado en ciencia política y la asignatura tiene que ver con teoría democrática.</p>
+<p>Se trata de una clase de 50 estudiantes con conocimientos sobre democracia representativa y liberal. Acaban de leer trechos de “Participación y teoría democrática” de Carole Pateman.</p>
+<p>El ejercicio debe durar aproximadamente 1 hora y se llevará a cabo en clase. De preferencia, sería interesante una parte inicial en grupo y otra individual para evitar comportamientos de tipo <em>free rider</em>. Además, el propósito del ejercicio es no solo evaluar su comprensión del concepto de democracia participativa, sino ser capaces de aplicarlos a distintos escenarios hipotéticos, pero verosímiles.</p>
+<p>Desafortunadamente, la clase tiene las sillas clavadas en el suelo, lo que limita un poco la movilidad de los estudiantes en grupo, pero se pueden organizar en pequeños grupos de 4-5 personas sin muchos incovenientes.</p>
+<p># Objetivo</p>
+<p>Su objetivo es ayudarme a diseñar ejercicios y prácticas en clase que ayuden a los estudiantes a comprender mejor el concepto de democracia participativa y a aplicarlo en escenarios prácticos.</p>
+<p># Tarea</p>
+<p>Dialoga conmigo para entender mejor mis necesidades y propone ejercicios y prácticas en clase que cumplan con los objetivos de aprendizaje definidos. Una vez sugeridos los ejercicios, discute conmigo sobre cómo mejorarlos y adaptarlos a mis intereses y a lo que tengo en mente.</p>
+</div>
+</div>
+</section>
+<section id="paso-3-refinar-y-adaptar" class="level3">
+<h3 class="anchored" data-anchor-id="paso-3-refinar-y-adaptar">Paso 3: Refinar y adaptar</h3>
+<p>Una vez que la IA me haya propuesto algunos ejercicios, es hora de revisarlos y adaptarlos a mis necesidades específicas. Puedo pedirle que los modifique para ajustarse mejor al tiempo disponible, al nivel de los estudiantes o a cualquier otra consideración práctica. También puedo combinar elementos de diferentes propuestas para crear un ejercicio más completo y efectivo.</p>
+</section>
+<div style="background-color:#B9F8CF;padding:10px;border-radius:5px;">
+<section id="taller-práctico-el-diagnóstico-participativo" class="level3">
+<h3 class="anchored" data-anchor-id="taller-práctico-el-diagnóstico-participativo"><strong>Taller Práctico: El Diagnóstico Participativo</strong></h3>
+<p><strong>Asignatura:</strong> Teoría Democrática</p>
+<p><strong>Tema:</strong> La Democracia Participativa de Carole Pateman</p>
+<p><strong>Objetivo:</strong> Hoy os convertiréis en “consultores de democracia participativa”. Vuestra misión es analizar un escenario, diagnosticar sus problemas de participación utilizando las herramientas teóricas de Pateman y presentar vuestras conclusiones en un informe individual.</p>
+<hr>
+<section id="instrucciones-para-la-actividad-duración-total-50-minutos" class="level4">
+<h4 class="anchored" data-anchor-id="instrucciones-para-la-actividad-duración-total-50-minutos"><strong>Instrucciones para la Actividad (Duración total: 50 minutos)</strong></h4>
+<p><strong>Fase 1: Trabajo en Grupo - El Análisis del Caso (25 minutos)</strong></p>
+<ol type="1">
+<li><p>Formad grupos de 4-5 personas.</p></li>
+<li><p>Leed las descripciones de los cuatro escenarios disponibles a continuación. Como grupo, <strong>elegid uno</strong> para vuestro análisis.</p>
+<ul>
+<li><p><strong>Escenario A: La Universidad Responde.</strong> La rectoría de vuestra universidad ha decidido instalar un nuevo sistema de cámaras de vigilancia con reconocimiento facial en todo el campus para “mejorar la seguridad”. La decisión fue tomada por el equipo rectoral y el jefe de seguridad. Para “involucrar” a los estudiantes, han abierto un buzón de sugerencias online para que opinen sobre dónde colocar las cámaras, pero la decisión de instalarlas ya es firme.</p></li>
+<li><p><strong>Escenario B: La Empresa “Cool”.</strong> Trabajáis en ‘Innovatech’, una exitosa empresa tecnológica con una cultura de trabajo muy moderna: pufs de colores, futbolín y café gratis. Sin embargo, todas las decisiones importantes (proyectos a desarrollar, horarios, objetivos de rendimiento, e incluso el código de vestimenta) son tomadas unilateralmente por el CEO. Hay una reunión trimestral donde el CEO presenta los resultados y los empleados pueden hacer preguntas, pero no hay ningún mecanismo para influir en las decisiones estratégicas.</p></li>
+<li><p><strong>Escenario C: El Barrio Conectado.</strong> En vuestro barrio, el ayuntamiento ha lanzado una nueva app móvil para “fomentar la participación ciudadana”. A través de la app, los vecinos pueden reportar problemas (una farola rota, basura en la calle) y votar en encuestas sobre temas menores, como el color de los nuevos bancos del parque. Las grandes decisiones (el presupuesto municipal, los planes urbanísticos, la gestión de servicios sociales) se siguen decidiendo exclusivamente en el pleno del ayuntamiento.</p></li>
+<li><p><strong>Escenario D: La Asociación de Estudiantes.</strong> La principal asociación de estudiantes de la facultad está dirigida por un pequeño comité ejecutivo elegido hace dos años. Ellos organizan todas las actividades y gestionan el presupuesto. Para unirse, los estudiantes solo pagan una cuota que les da derecho a descuentos en la cafetería. No se convocan asambleas generales y la única comunicación es un boletín informativo mensual que envía el comité.</p></li>
+</ul></li>
+<li><p>Una vez elegido vuestro caso, debatidlo en grupo utilizando la siguiente <strong>Ficha de Diagnóstico</strong> como guía:</p>
+<ul>
+<li><strong>El Mapa del Poder:</strong> ¿Quién toma realmente las decisiones importantes?</li>
+<li><strong>La Calidad de la Participación:</strong> ¿Las oportunidades ofrecidas son <strong>participación sustantiva</strong> o <strong>pseudo-participación</strong>?</li>
+<li><strong>La Escuela de Ciudadanía:</strong> ¿Cuál es el <strong>“efecto educativo”</strong> de este sistema (fomenta la actividad o la pasividad)?</li>
+</ul></li>
+</ol>
+<p><strong>Fase 2: Trabajo Individual - Tu Informe de Consultoría (25 minutos)</strong></p>
+<p>Ahora, de forma individual, redactarás tu “Informe de Consultoría”. Este será el <strong>entregable evaluable</strong> de la sesión.</p>
+<p>Tu informe debe tener dos partes:</p>
+<ul>
+<li><strong>Parte A: Diagnóstico Rápido</strong>
+<ul>
+<li>Elige <strong>una</strong> de las siguientes opciones para sintetizar el problema principal de tu escenario:
+<ol type="1">
+<li><strong>Un Tweet-Denuncia:</strong> (Máx. 280 caracteres). Incluye <code>#DiagnósticoPateman</code>.</li>
+<li><strong>Un Titular de Periódico:</strong> (Titular + subtítulo).</li>
+</ol></li>
+</ul></li>
+<li><strong>Parte B: Justificación Analítica</strong>
+<ul>
+<li>Escribe un párrafo (aprox. <strong>150-200 palabras</strong>) que responda a estas dos preguntas:
+<ol type="1">
+<li><strong>¿Por qué es esto ‘pseudo-participación’?</strong> Explica, usando las ideas de Pateman, por qué los mecanismos del escenario no son auténticos y qué les falta.</li>
+<li><strong>¿Cuál es la consecuencia educativa?</strong> Describe el “efecto educativo” más probable que este sistema tiene sobre los individuos (¿fomenta la competencia cívica o la apatía?). ¿Por qué?</li>
+</ol></li>
+</ul></li>
+</ul>
+<p>Sube tu informe a <strong>Studium</strong> antes de salir de clase.</p>
+<hr>
+</section>
+</section>
+<section id="criterios-de-evaluación-para-el-informe-de-consultoría-total-10-puntos" class="level3">
+<h3 class="anchored" data-anchor-id="criterios-de-evaluación-para-el-informe-de-consultoría-total-10-puntos"><strong>Criterios de Evaluación para el Informe de Consultoría (Total: 10 Puntos)</strong></h3>
+<p>Tu informe será evaluado según los siguientes criterios. Úsalos como una guía para asegurarte de que tu trabajo está completo y bien enfocado.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Criterio de Evaluación</th>
+<th style="text-align: left;">Qué se espera de tu respuesta</th>
+<th style="text-align: left;">Puntos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>1. Síntesis del Problema (Parte A)</strong></td>
+<td style="text-align: left;">Tu tweet o titular identifica de forma clara, concisa e impactante el principal problema de participación del caso.</td>
+<td style="text-align: left;"><strong>2 pts</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>2. Justificación Teórica (Parte B - Pregunta 1)</strong></td>
+<td style="text-align: left;">Explicas con claridad por qué la participación en el escenario es simbólica (“pseudo-participación”) y no sustantiva, utilizando correctamente las ideas de Pateman para apoyar tu argumento.</td>
+<td style="text-align: left;"><strong>3 pts</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>3. Análisis de Consecuencias (Parte B - Pregunta 2)</strong></td>
+<td style="text-align: left;">Argumentas cuál es el “efecto educativo” del sistema (si fomenta la apatía, el cinismo, etc.), conectando la falta de poder real con el aprendizaje cívico de las personas.</td>
+<td style="text-align: left;"><strong>3 pts</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>4. Claridad y Estructura</strong></td>
+<td style="text-align: left;">Tu texto está bien organizado, es coherente, sin errores graves de redacción y respeta la extensión solicitada.</td>
+<td style="text-align: left;"><strong>2 pts</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+</div>
+</section>
+<section id="ia-como-revisora-de-calidad" class="level2">
+<h2 class="anchored" data-anchor-id="ia-como-revisora-de-calidad">IA como revisora de calidad</h2>
+<p>Como he mencionado anteriormente, otra forma de emplear la IA es como revisora de calidad. Una vez que haya diseñado un ejercicio, puedo pedirle a la IA que lo evalúe y me sugiera mejoras. Por ejemplo:</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>IA como revisora
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p># Rol</p>
+<p>Actúa como un experto en diseño de materiales docentes y evaluación educativa.</p>
+<p># Contexto</p>
+<p>He diseñado un ejercicio para una clase de ciencia política de primer año sobre la democracia participativa.</p>
+<p># Tarea</p>
+<p>Revisa el ejercicio que he diseñado y proporciona comentarios detallados sobre su efectividad para lograr los objetivos de aprendizaje. Sugiere mejoras específicas para hacerlo más atractivo, claro y efectivo para los estudiantes.</p>
+<p># Ejercicio diseñado</p>
+<p>[PEGAR AQUÍ EL EJERCICIO DISEÑADO]</p>
+</div>
+</div>
+</section>
+<section id="generar-soluciones-de-referencia" class="level2">
+<h2 class="anchored" data-anchor-id="generar-soluciones-de-referencia">Generar soluciones de referencia</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Datos sintéticos
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p># Rol</p>
+<p>Actúa como un experto en diseño de materiales docentes y evaluación educativa.</p>
+<p># Contexto</p>
+<p>He diseñado un ejercicio para una clase de ciencia política de primer año sobre el la democracia participativa.</p>
+<p># Objetivo</p>
+<p>Su objetivo es generar soluciones de referencia para el ejercicio diseñado, que puedan servir como guía para la corrección y evaluación de los estudiantes.</p>
+<p># Tarea</p>
+<p>Analiza las instrucciones del ejercicio y crea cuatro soluciones: una de 2, otra de 5, otra de 7 y una de 10.</p>
+<p># Ejercicio diseñado</p>
+<p>[PEGAR AQUÍ EL EJERCICIO DISEÑADO]</p>
+</div>
+</div>
+<p>Al someter este <em>prompt</em> a distintos modelos y revisar sus respuestas, podemos obtener soluciones de referencia que nos ayuden a evaluar las respuestas de los estudiantes de manera más objetiva y consistente. Estas soluciones pueden variar en calidad y profundidad, lo que nos permite tener un espectro de respuestas para comparar.</p>
+<p>Lo ideal sería recolectar varias soluciones generadas por la IA y luego revisarlas y adaptarlas según sea necesario para asegurarnos de que cumplen con los estándares de calidad que buscamos. Luego, podremos enviarlas a la IA para que genere la corrección de los ejercicios.</p>
+</section>
+<section id="corregir-los-ejercicios" class="level2">
+<h2 class="anchored" data-anchor-id="corregir-los-ejercicios">Corregir los ejercicios</h2>
+<p>Otra forma de aprovechar la IA es utilizarla para corregir los ejercicios de los estudiantes. Podemos pedirle que evalúe cada informe según los criterios establecidos y asigne una puntuación. Aquí, podemos emplear las respuestas generadas por la propia IA como ejemplos. No obstante, una vez que ya hayamos aplicado y corregido ejercicios de estudiantes, podemos emplear sus respuestas debidamente anonimizadas con las respectivas notas para instruir los modelos en cómo evaluar. Este paso permite refinar el modelo como instrumento de corrección.</p>
+<div style="background-color:#B9F8CF;padding:10px;border-radius:5px;">
+<p># Rol</p>
+<p>Actúa como evaluador de un ejercicio sobre democracia participativa basado en la teoría de Carole Pateman.</p>
+<p>## Tu tarea Evalúa el informe del estudiante según los criterios establecidos y asigna una puntuación de 0-10.</p>
+<p>## Criterios de Evaluación</p>
+<ol type="1">
+<li><strong>Síntesis del Problema (Parte A)</strong> - 2 puntos
+<ul>
+<li>Tweet/titular claro, conciso e impactante que identifica el problema principal de participación</li>
+</ul></li>
+<li><strong>Justificación Teórica (Parte B - Pregunta 1)</strong> - 3 puntos
+<ul>
+<li>Explica por qué es pseudo-participación (no participación sustantiva)</li>
+<li>Usa correctamente conceptos de Pateman (control sobre decisiones, participación simbólica vs.&nbsp;genuina)</li>
+<li>Identifica qué falta para ser participación auténtica</li>
+</ul></li>
+<li><strong>Análisis de Consecuencias (Parte B - Pregunta 2)</strong> - 3 puntos
+<ul>
+<li>Describe el “efecto educativo” del sistema (¿fomenta competencia cívica o apatía?)</li>
+<li>Conecta la falta de poder real con el aprendizaje/desarrollo cívico</li>
+<li>Explica cómo funciona la “escuela de ciudadanía” (positiva o negativamente)</li>
+</ul></li>
+<li><strong>Claridad y Estructura</strong> - 2 puntos
+<ul>
+<li>Texto organizado, coherente, sin errores graves</li>
+<li>Respeta extensión solicitada (150-200 palabras en Parte B)</li>
+</ul></li>
+</ol>
+<p>## Soluciones de Referencia por Nivel</p>
+<p>### Ejemplo de 2/10 (Insuficiente)</p>
+<p><strong>Parte A:</strong> “En Innovatech no hay participación real. El CEO decide todo y los empleados solo pueden preguntar pero no influir. #DiagnósticoPateman”</p>
+<p><strong>Parte B:</strong> “Esto es pseudo-participación porque los empleados no pueden tomar decisiones importantes. Solo hay reuniones donde se informa de lo que ya está decidido. Pateman dice que la participación debe ser real y aquí no lo es. Los trabajadores no tienen poder sobre su trabajo y esto hace que no se sientan motivados. El efecto educativo es malo porque aprenden que su opinión no importa.” (70 palabras)</p>
+<p><strong>Problemas:</strong> Síntesis poco impactante, uso superficial de conceptos, análisis básico sin profundidad, extensión insuficiente.</p>
+<hr>
+<p>### Ejemplo de 5/10 (Aprobado)</p>
+<p><strong>Parte A - Titular:</strong> “Pufs y futbolín, pero cero poder: la democracia de fachada en Innovatech” | <em>La empresa tecnológica ofrece beneficios superficiales mientras mantiene un control absoluto sobre decisiones estratégicas</em></p>
+<p><strong>Parte B:</strong> “Este escenario representa pseudo-participación porque, aunque existe un espacio formal de encuentro (la reunión trimestral), los empleados carecen de influencia real sobre las decisiones que afectan directamente su vida laboral. Según Pateman, la participación auténtica requiere que los individuos tengan control sobre las decisiones, no solo acceso a la información. Aquí, los trabajadores pueden”preguntar” pero no “decidir”, lo cual es participación simbólica. El efecto educativo es negativo: los empleados aprenden que su rol es pasivo y que las decisiones importantes están fuera de su alcance. Esto fomenta la apatía cívica y la conformidad, ya que no desarrollan capacidades para influir en su entorno. La cultura “moderna” enmascara una estructura autoritaria que inhibe el desarrollo de competencias democráticas.” (156 palabras)</p>
+<p><strong>Logros:</strong> Identifica pseudo-participación correctamente, usa conceptos básicos de Pateman, analiza efecto educativo. <strong>Limitaciones:</strong> Desarrollo teórico mejorable, conexión poder-aprendizaje algo superficial.</p>
+<hr>
+<p>### Ejemplo de 7/10 (Notable)</p>
+<p><strong>Parte A - Tweet:</strong> “🚨 Innovatech: Te dejan preguntar DESPUÉS de decidir. Pufs de colores para ocultar que el CEO tiene todo el poder. Participación de escaparate que entrena empleados sumisos, no ciudadanos activos. #DiagnósticoPateman #PseudoParticipaciónCorporativa”</p>
+<p><strong>Parte B:</strong> “Innovatech ejemplifica la pseudo-participación que Pateman critica: se crean rituales participativos (reuniones trimestrales, espacio para preguntas) sin transferir poder real. La participación genuina, según Pateman, requiere control sobre las decisiones que afectan la vida de las personas, no mera consulta posterior. Aquí, la estructura es claramente jerárquica —el CEO monopoliza decisiones sobre proyectos, horarios y objetivos— mientras los beneficios superficiales (café gratis, futbolín) generan una ilusión de ambiente democrático. Es participación simbólica que legitima decisiones unilaterales. El efecto educativo es perverso: los empleados internalizan la impotencia política. Al participar en un sistema donde su voz no tiene consecuencias, aprenden que la autoridad es inevitable y que cuestionar el poder es inútil. Pateman argumenta que la democracia real desarrolla competencias cívicas; aquí ocurre lo contrario: se atrofian. Los trabajadores se vuelven espectadores de su propia vida laboral, reproduciendo un modelo de ciudadanía pasiva que trasciende el ámbito corporativo.” (182 palabras)</p>
+<p><strong>Fortalezas:</strong> Síntesis impactante, uso sofisticado de Pateman (participación genuina vs.&nbsp;simbólica), excelente análisis del efecto educativo (“internalización de impotencia”), buena estructura. <strong>Mejora posible:</strong> Profundizar en el concepto específico de “escuela de ciudadanía”.</p>
+<hr>
+<p>### Ejemplo de 10/10 (Sobresaliente)</p>
+<p><strong>Parte A - Titular:</strong> “Innovatech: Futbolín para todos, democracia para nadie” | <em>Cómo una empresa ‘cool’ utiliza beneficios estéticos para enmascarar un modelo autoritario que convierte a trabajadores competentes en ciudadanos incompetentes</em></p>
+<p><strong>Parte B:</strong> “Innovatech representa el paradigma de pseudo-participación que Pateman denuncia: se institucionalizan espacios aparentemente participativos (reuniones trimestrales, canales de preguntas) que funcionan como válvulas de escape simbólicas, sin alterar la distribución real del poder. La participación auténtica, en el marco teórico de Pateman, implica control compartido sobre decisiones sustantivas —precisamente lo ausente aquí, donde el CEO retiene autoridad unilateral sobre proyectos, horarios y estrategia—. Los”pufs de colores” operan como cortina de humo: crean una estética participativa que oculta una estructura jerárquica tradicional. Es participación consultiva en el mejor de los casos, manipulativa en el peor: se solicita opinión sin compromiso de incorporarla, legitimando decisiones previamente tomadas. El efecto educativo es especialmente pernicioso. Pateman sostiene que las instituciones democráticas funcionan como “escuelas de ciudadanía” donde los individuos desarrollan competencias cívicas a través de la práctica participativa real. Innovatech produce el efecto inverso: una “escuela de sumisión”. Los empleados aprenden que su agencia es ilusoria, que el poder decisorio está vedado, y que su rol consiste en ejecutar —no en deliberar o codecidir—. Este aprendizaje genera apatía política: si la participación no produce resultados, ¿por qué invertir energía en ella? Más grave aún, esta experiencia cotidiana de impotencia estructural se transfiere más allá del ámbito laboral, erosionando la capacidad y disposición para el ejercicio ciudadano activo en otros espacios.” (247 palabras)</p>
+<p><strong>Excelencia:</strong> Síntesis brillante, dominio conceptual excepcional (pseudo-participación, participación sustantiva vs.&nbsp;consultiva, “escuela de ciudadanía”), análisis sofisticado del efecto educativo con conexión entre experiencia laboral y ciudadanía general, argumentación rigurosa, vocabulario teórico preciso.</p>
+<hr>
+<p>## Formato de Respuesta</p>
+<p>Proporciona:</p>
+<ol type="1">
+<li><strong>Puntuación total</strong>: X/10</li>
+<li><strong>Desglose por criterio</strong> (ej: Síntesis: 1.5/2, Justificación: 2/3, Análisis consecuencias: 2/3, Claridad: 1/2)</li>
+<li><strong>Retroalimentación constructiva</strong>: 2-3 fortalezas específicas y 2-3 áreas de mejora concretas</li>
+<li><strong>Sugerencia principal</strong> para mejorar el trabajo</li>
+</ol>
+<hr>
+<p><strong>Informe del estudiante a evaluar:</strong></p>
+<p>[PEGAR AQUÍ EL TRABAJO DEL ESTUDIANTE]</p>
+</div>
+</section>
+<section id="vibe-coding" class="level2">
+<h2 class="anchored" data-anchor-id="vibe-coding">Vibe Coding</h2>
+<p>El Vibe Coding es una técnica que consiste en utilizar la IA para generar código o soluciones a problemas específicos. En el contexto de la creación de ejercicios, puedo emplear esta técnica para generar soluciones de referencia que los estudiantes puedan utilizar como guía o para comparar sus propias respuestas.</p>
+<p>Juguemos con algunos conceptos:</p>
+<ul>
+<li><p>campañas electorales</p></li>
+<li><p>simuladores de indicadores de partidos</p></li>
+<li><p>análisis de discursos políticos populistas</p></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Copyright 2025, Rodrigo Rodrigues-Silveira</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://oir.org.es/pela/"><img src="logo_pela.png" class="img-fluid" alt="Posit" width="500"></a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
